@@ -3,16 +3,13 @@ function isPrime(number) {
     return false;
   }
 
-  let prime = true;
-
   for (var i = 2; i < number; i++) {
     if (number % i === 0) {
-      prime = false;
-      break;
+      return false;
     }
   }
 
-  return prime;
+  return true;
 }
 
 import { test } from 'ava';
