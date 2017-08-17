@@ -1,0 +1,23 @@
+{
+  "name": "frontend-interview-questions",
+  "version": "1.0.0",
+  "description": "Answers for: https://performancejs.com/post/hde6d32/The-Best-Frontend-JavaScript-Interview-Questions-(Written-by-a-Frontend-Engineer)",
+  "main": "index.js",
+  "scripts": {
+    "tdd": "ava **/*.js -w",
+    "test": "ava **/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulomenezes/frontend-interview-questions.git"
+  },
+  "author": "Paulo Menezes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paulomenezes/frontend-interview-questions/issues"
+  },
+  "homepage": "https://github.com/paulomenezes/frontend-interview-questions#readme",
+  "devDependencies": {
+    "ava": "^0.22.0"
+  }
+}
